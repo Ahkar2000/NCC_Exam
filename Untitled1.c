@@ -47,7 +47,7 @@ int main(){
             printf("Press 0 to continue or 1 to stop : ");
             scanf("%d",&new);
         }
-    }else{
+    }else if(option == 'f'){
         printf("Enter Your First Name Length : ");
         scanf("%d",&length);
         printf("Enter Your First Name : ");
@@ -85,7 +85,9 @@ int main(){
             printf("Press 0 to continue or 1 to stop : ");
             scanf("%d",&new);
         }
-    }
+    }else{
+        printf("Incorrect Character");
+}
 return 0;
 }
 
