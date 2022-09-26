@@ -60,6 +60,7 @@ int main(){
     Storage newObj;
     int trueValue = 0;
 
+    do{
         cout<<"Please select option."<<endl;
         cout<<"Press 1 to insert data."<<endl;
         cout<<"Press 2 to search data."<<endl;
@@ -118,6 +119,7 @@ int main(){
             default:
                 cout<<"Please enter valid value."<<endl;
         }
+    }while(!feof(stdin));
 
 return 0;
 }
